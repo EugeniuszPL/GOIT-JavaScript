@@ -1,3 +1,4 @@
+
 function processCall(recipient, onAvailable, onNotAvailable) {
     // Symuluj dostępność abonenta za pomocą liczby losowej
       const isRecipientAvailable = Math.random() > 0.5;
@@ -27,3 +28,4 @@ function processCall(recipient, onAvailable, onNotAvailable) {
     
     processCall("Mango", takeCall, activateAnsweringMachine);
     processCall("Poly", takeCall, leaveHoloMessage);
+  

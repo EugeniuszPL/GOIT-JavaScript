@@ -3,22 +3,21 @@ function myFunction() {
   element.innerHTML = "New Heading";
 }
 
+
 function myColorChange() {
   const element = document.getElementById("id01");
-  element.style.color = "red";
+  element.style.background = "red";
 }
 
-class Przesyłka {
-constructor(name, waga){
-  this.name =  name;
-  this.waga = waga;
-} 
+class Przesylka {
+  constructor(name, waga){
+    this.name = name;
+    this.waga = waga;
+  }
 }
 
-let przesylka = new Przesyłka("List", "");
-let przesylka2 = new Przesyłka("Paczka", 20);
-
-
+let przesylka = new Przesylka("List", "");
+let przesylka2 = new Przesylka("Paczka", 20);
 
 
 function mojaFunkcja(id) {
@@ -45,11 +44,3 @@ function mojaFunkcja(id) {
   }
 
 }
-
-
-
-
-
-
-
-
